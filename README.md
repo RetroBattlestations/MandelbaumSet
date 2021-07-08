@@ -14,8 +14,8 @@ resolution - character block graphics really isn't going to cut it. In
 fact outputting to a pen plotter may give some nice results, if you're
 up to rewriting the program to do it!
 
-Since this uses techniques I've never used before - namely matrix math
-- I chose to write the program in Python and get it working there
+Since this uses techniques I've never used before –namely matrix math–
+I chose to write the program in Python and get it working there
 first, and then convert the program to BASIC. Keeping track of 2
 letter global variables in BASIC was more challenging than
 usual. Having to deal with line numbers also provided some additional
