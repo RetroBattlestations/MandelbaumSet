@@ -48,6 +48,7 @@ See [List of Computers With On-Board BASIC](https://en.wikipedia.org/wiki/List_o
 ## Enhancment Ideas ##
 
 * Send output to an external high resolution device
+* Compensate for non-square pixels
 * Turn it into some kind of continuously looping animation
 * Reduce the number of redundant calculations and make it run faster
 
