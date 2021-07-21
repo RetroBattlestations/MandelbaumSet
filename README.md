@@ -6,16 +6,16 @@ It seems like fractals have become popular again, so I present to you
 
 This program will iterate over and over chanting along, generating
 smaller and smaller chants using matrix transformations. While
-Applesoft supports using 2D arrays, not all BASIC dialects do and since
-the matrix is only 3x3 I simulated a 2D array using very simple math
-(mathsfsh for you British people). Like any good fractal rendering
-program, it's very slow. You're also going to want a decent resolution
-- character block graphics really isn't going to cut it. In fact
-outputting to a pen plotter may give some nice results, if you're up
-to rewriting the program to do it!
+Applesoft supports using 2D arrays, not all BASIC dialects do and
+since the matrix is only 3x3 I simulated a 2D array using very simple
+math (mathsfsh for you British people). Like any good fractal
+rendering program, it's very slow. You're also going to want a decent
+resolution - character block graphics really isn't going to cut it. In
+fact outputting to a pen plotter may give some nice results, if you're
+up to rewriting the program to do it!
 
-Since this uses techniques I've never used before - namely matrix math
-- I chose to write the program in Python and get it working there
+Since this uses techniques I've never used before –namely matrix math–
+I chose to write the program in Python and get it working there
 first, and then convert the program to BASIC. Keeping track of 2
 letter global variables in BASIC was more challenging than
 usual. Having to deal with line numbers also provided some additional
@@ -48,7 +48,9 @@ See [List of Computers With On-Board BASIC](https://en.wikipedia.org/wiki/List_o
 ## Enhancment Ideas ##
 
 * Send output to an external high resolution device
+* Compensate for non-square pixels
 * Turn it into some kind of continuously looping animation
+* Reduce the number of redundant calculations and make it run faster
 
 ## Typing Tips ##
 
