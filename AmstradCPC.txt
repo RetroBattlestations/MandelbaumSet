@@ -1,8 +1,8 @@
 100 REM BASIC Month 6: The Mandelbaum Set
 110 REM http://reddit.com/r/RetroBattlestations
 120 REM written by FozzTexx
+125 REM Amstrad CPC port by retrotheory
 130 REM "You think you're better than me?"
-140 MODE 2:CLS
 
 200 REM === Initialize variables and constants
 200 REM === Initialize variables and constants
@@ -17,7 +17,7 @@
 290 SX = (RZ(0) - RZ(0) * 0.05) / GW:SY = (RZ(1) - RZ(1) * 0.07) / TH
 300 SK = SX:IF SY < SK THEN SK = SY
 
-310 REM No COLOR
+310 MODE 2:CLS
 320 REM "What in holy hell?"
 330 X = -GW / 2:Y = -GO(2) / 2:GOSUB 2030:REM Translate
 340 X = SK:Y = SK:GOSUB 2230:REM Scale
